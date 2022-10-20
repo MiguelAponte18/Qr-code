@@ -24,23 +24,28 @@ main{
 .carta{
     
 	height: 27em;
-	width: 18em;
+	max-width: 18em;
 	background-color: #fff;
 	border-radius: 1em;
 	padding: 0.9em;
     text-align: center;
-   
+    margin: 0.935em;
 }
 
-img{
-   object-fit: fill;
+
+.container-img{
    height: 16em;
    width: 16.2em;
+  
+}
+.container-img img{
+   object-fit: fill;
+   width: 100%;
    border-radius: 0.9em;
 }
 
 
-h2{
+h1{
 	font-family: sans-serif;
 	font-size: 1.2em;
 	margin-top: 1em;
